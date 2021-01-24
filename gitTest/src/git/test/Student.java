@@ -2,12 +2,13 @@ package git.test;
 
 public class Student {
 	int id;
-	int name;
+	
+	String name;
 	
 	public int getId() {
 		return id;
 	}
-	public int getName() {
+	public String getName() {
 		return name;
 	}
 
